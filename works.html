@@ -80,6 +80,50 @@
                 width: 50%;
             }
         }
+        .expand-icon {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 15px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /* Modal Styling */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-content {
+        display: block;
+        margin: auto;
+        max-width: 95%;
+        max-height: 100%;
+        padding: 20px;
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: black;
+        background-color: gray;
+        padding: 5px;
+        font-size: 35px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 9999999;
+    }
     </style>
 </head>
 
@@ -247,20 +291,23 @@
                 </div>
 
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miyo-1.jpg" alt="MIYO Tote Bag Design 1" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miyo-1.jpg')"></i>
                     </div>
                 </div>
 
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miyo-2.jpg" alt="MIYO Tote Bag Design 2" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miyo-2.jpg')"></i>
                     </div>
                 </div>
 
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miyo-3.jpg" alt="MIYO Tote Bag Design 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miyo-3.jpg')"></i>
                     </div>
                 </div>
 
@@ -274,18 +321,21 @@
                     </p>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/blak-1.jpg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/blak-1.jpg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/blak-3.jpg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/blak-3.jpg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/blak-2.jpg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/blak-2.jpg')"></i>
                     </div>
                 </div>
 
@@ -299,18 +349,21 @@
                     </p>                    
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/europa-1.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/europa-1.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/europa-2.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/europa-2.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/europa-3.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/europa-3.jpeg')"></i>
                     </div>
                 </div>
 
@@ -322,72 +375,59 @@
                         where we focused on creating engaging and impactful designs that highlighted their brand’s personality. 
                         Our work included custom banners, promotional materials, and signage to ensure their presence stood out at every touchpoint. 
                     </p>
-                                    
                 </div>
+                
+                <!-- Images with Expand Icon -->
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
-                        <img src="img/brand/hartpoint-1.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                    <div class="text-center position-relative">
+                        <img src="img/brand/hartpoint-1.jpeg" alt="Image 1" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/hartpoint-1.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
-                        <img src="img/brand/hartpoint-2.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                    <div class="text-center position-relative">
+                        <img src="img/brand/hartpoint-2.jpeg" alt="Image 2" class="img-fluid responsive-img" onclick="openModal('img/brand/hartpoint-2.jpeg')">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/hartpoint-2.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/hartpoint-3.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/hartpoint-3.jpeg')"></i>
                     </div>
                 </div>
-
-                <div class="col-12 position-relative text-container" style="margin-top: 75px;">
-                    <div class="number-box">04</div>
-                    <h2 class="title">HARTPOINT 16-17</h2>
-                    <p class="description">
-                        At Graphite Print, we had the privilege of working on the visual identity for Hartpoint 16-17, 
-                        where we focused on creating engaging and impactful designs that highlighted their brand’s personality. 
-                        Our work included custom banners, promotional materials, and signage to ensure their presence stood out at every touchpoint. 
-                    </p>
-                                    
-                </div>
-                <div class="col-4 col-lg-4">
-                    <div class="text-center">
-                        <img src="img/brand/hartpoint-1.jpeg" alt="Image 3" class="img-fluid responsive-img">
-                    </div>
-                </div>
-                <div class="col-4 col-lg-4">
-                    <div class="text-center">
-                        <img src="img/brand/hartpoint-2.jpeg" alt="Image 3" class="img-fluid responsive-img">
-                    </div>
-                </div>
-                <div class="col-4 col-lg-4">
-                    <div class="text-center">
-                        <img src="img/brand/hartpoint-3.jpeg" alt="Image 3" class="img-fluid responsive-img">
-                    </div>
+                
+                <!-- Modal for Fullscreen View -->
+                <div id="imageModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="fullImage" style="object-fit: contain; height: 100vh;">
                 </div>
 
                 <div class="col-12 position-relative text-container" style="margin-top: 75px;">
                     <div class="number-box">05</div>
                     <h2 class="title">MILIONA</h2>
                     <p class="description">
-                        At Graphite Print, we had the pleasure of collaborating with **MILIONA**, bringing their vision to life through innovative design solutions. 
+                        At Graphite Print, we had the pleasure of collaborating with "MILIONA", bringing their vision to life through innovative design solutions. 
                         Our work included crafting unique and stylish "tote bag designs" that not only enhanced their brand identity but also provided a practical and fashionable promotional item. 
                         By focusing on high-quality materials and creative aesthetics, we ensured that each design reflected the essence of MILIONA’s brand with a modern and professional touch.
                     </p>                
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miliona-1.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miliona-1.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miliona-2.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miliona-2.jpeg')"></i>
                     </div>
                 </div>
                 <div class="col-4 col-lg-4">
-                    <div class="text-center">
+                    <div class="text-center position-relative">
                         <img src="img/brand/miliona-3.jpeg" alt="Image 3" class="img-fluid responsive-img">
+                        <i class="fas fa-expand-alt expand-icon" onclick="openModal('img/brand/miliona-3.jpeg')"></i>
                     </div>
                 </div>
             </div>
@@ -550,6 +590,16 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        function openModal(imageSrc) {
+            document.getElementById("imageModal").style.display = "block";
+            document.getElementById("fullImage").src = imageSrc;
+        }
+    
+        function closeModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,380 @@
+/* Dark Theme - Black Background with White Text */
+
+/* Global body background */
+body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Ensure all sections have black background */
+section, .section, .section-padding {
+    background-color: #000000 !important;
+}
+
+/* HTML background */
+html {
+    background-color: #000000 !important;
+}
+
+/* All text elements - make them white */
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, li, label, input, textarea, select {
+    color: #ffffff !important;
+}
+
+/* Headings - ensure they're white */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Links - white with hover effect */
+a {
+    color: #ffffff !important;
+}
+
+a:hover {
+    color: #fd4b38 !important;
+}
+
+/* Navigation and header elements */
+.header-area,
+.menu-area,
+.main-menu,
+.mean-container .mean-nav {
+    background-color: #ffffff !important;
+}
+
+/* Header top area - keep the blue color but ensure text is white */
+.header-top {
+    background-color: #5d6f97 !important;
+}
+
+.header-top span,
+.header-top p {
+    color: #ffffff !important;
+}
+
+/* Logo area */
+.logo {
+    background-color: transparent !important;
+}
+
+/* Main menu items */
+.main-menu ul li a {
+    color: #333333 !important;
+}
+
+.main-menu ul li a:hover {
+    color: #fd4b38 !important;
+}
+
+/* Mobile menu */
+.mean-container a.meanmenu-reveal span {
+    border-top-color: #ffffff !important;
+}
+
+/* Call Now button - make text black */
+.call-now, .call-now-btn, .btn-call, [href*="tel"], a[href*="tel"] {
+    color: #000000 !important;
+}
+
+/* Menu items */
+.mean-container .mean-nav ul li a {
+    color: #333333 !important;
+    background-color: #ffffff !important;
+}
+
+/* Form elements */
+input, textarea, select {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Buttons - keep original styling but ensure text is white */
+.btn {
+    color: #ffffff !important;
+}
+
+/* Sections and containers */
+.section-padding,
+.about-area,
+.services-area,
+.team-area,
+.counter-area,
+.testimonial-area,
+.blog-area,
+.contact-area,
+.footer-area {
+    background-color: #000000 !important;
+}
+
+/* Cards and boxes */
+.card, .box, .service-box, .team-box, .blog-box {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+
+/* Tables */
+table, th, td {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border-color: #333333 !important;
+}
+
+/* Footer - black background with white text */
+.footer-area,
+.footer-area *,
+.footer-area h1,
+.footer-area h2,
+.footer-area h3,
+.footer-area h4,
+.footer-area h5,
+.footer-area h6,
+.footer-area p,
+.footer-area span,
+.footer-area a,
+.footer-area li,
+.footer-area label,
+.footer-area input,
+.footer-area textarea,
+.footer-area select {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Footer links hover effect */
+.footer-area a:hover {
+    color: #fd4b38 !important;
+}
+
+/* Overlay elements */
+.theme-overlay::before {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Separators and borders */
+hr, .separator {
+    border-color: #333333 !important;
+}
+
+/* Placeholder text */
+*::placeholder {
+    color: #cccccc !important;
+}
+
+/* Selection */
+*::-moz-selection,
+::selection {
+    background-color: #fd4b38 !important;
+    color: #ffffff !important;
+}
+
+/* Modal and popup backgrounds */
+.modal-content,
+.popup-content {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Tooltips */
+.tooltip-inner {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+/* Ensure all backgrounds are black */
+* {
+    background-color: inherit;
+}
+
+/* Specific overrides for common elements */
+.container, .row, .col, .col-md-6, .col-lg-4, .col-xl-3 {
+    background-color: transparent !important;
+}
+
+/* Text colors for specific elements */
+.text-dark {
+    color: #ffffff !important;
+}
+
+.text-muted {
+    color: #cccccc !important;
+}
+
+.text-secondary {
+    color: #cccccc !important;
+}
+
+/* Border colors */
+.border, .border-top, .border-bottom, .border-left, .border-right {
+    border-color: #333333 !important;
+}
+
+/* Shadow adjustments for dark theme */
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ensure images and videos maintain their appearance */
+img, video {
+    background-color: transparent !important;
+}
+
+/* Additional Bootstrap and common class overrides */
+.bg-white, .bg-light {
+    background-color: #000000 !important;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.text-black {
+    color: #000000 !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+/* Form styling */
+.form-control, .form-select {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #1a1a1a !important;
+    border-color: #fd4b38 !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 0 0.2rem rgba(253, 75, 56, 0.25) !important;
+}
+
+/* Alert boxes */
+.alert {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Badge styling */
+.badge {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Progress bars */
+.progress {
+    background-color: #1a1a1a !important;
+}
+
+.progress-bar {
+    background-color: #fd4b38 !important;
+}
+
+/* List group */
+.list-group-item {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Pagination */
+.page-link {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.page-link:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.page-item.active .page-link {
+    background-color: #fd4b38 !important;
+    border-color: #fd4b38 !important;
+    color: #ffffff !important;
+}
+
+/* Nav tabs */
+.nav-tabs {
+    border-bottom-color: #333333 !important;
+}
+
+.nav-tabs .nav-link {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #000000 !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Accordion */
+.accordion-item {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+
+/* Services section - make text black */
+.service-details-two,
+.service-details-two h5,
+.service-details-two p,
+.service-details-two .text h5,
+.service-details-two .text p {
+    color: #000000 !important;
+}
+
+.accordion-button {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.accordion-body {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}

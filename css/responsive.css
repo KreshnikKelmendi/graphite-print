@@ -668,8 +668,8 @@ margin-top: 30px;
     
     .mean-container a.meanmenu-reveal {
 margin-top: -46px;
-color: #000;
-border: 1px solid #000;
+color: #fff;
+border: 1px solid #fff;
 }
     
     .contact-bg02 {
@@ -688,7 +688,7 @@ border: 1px solid #000;
     bottom: -150px;
 }
     #mobile-menu {
-    background: #002e5b;
+    background: #000;
 }
     .header-cta ul li {
     display: inline-block;
@@ -944,37 +944,37 @@ border: 1px solid #000;
   margin-top: -47px;
     }
     .header-three .mean-container a.meanmenu-reveal {
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
     .header-three .mean-container a.meanmenu-reveal span {
-  background: #000;
+  background: #fff;
   display: block;
   height: 3px;
   margin-top: 3px;
-  border-top: 3px solid #000;
+  border-top: 3px solid #fff;
 }
 
-/* Make the close button (X) black when menu is open for header-three */
+/* Make the close button (X) white when menu is open for header-three */
 .header-three .mean-container a.meanmenu-reveal.meanclose span {
-    background: #000 !important;
-    border-top: 3px solid #000 !important;
+    background: #fff !important;
+    border-top: 3px solid #fff !important;
 }
 	 .menu .sub-menu {
     border-top: 1px solid rgb(217, 217, 217);
 }
     .mean-container a.meanmenu-reveal span {
-    background: #000;
+    background: #fff;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fff;
 }
 
-/* Make the close button (X) black when menu is open */
+/* Make the close button (X) white when menu is open */
 .mean-container a.meanmenu-reveal.meanclose span {
-    background: #000 !important;
-    border-top: 3px solid #000 !important;
+    background: #fff !important;
+    border-top: 3px solid #fff !important;
 }
     .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
@@ -1044,8 +1044,8 @@ box-shadow: 0 0 0 0;
 
     .sticky-menu .mean-container a.meanmenu-reveal {
     margin-top: -49px;
-    color: #000;
-    border: 1px solid #000;
+    color: #fff;
+    border: 1px solid #fff;
 }
         .menu-area.sticky-menu {
     padding: 10px 0;
@@ -1355,7 +1355,7 @@ margin-top: 0;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fff;
 }
     .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
@@ -1408,21 +1408,21 @@ background: none;
 box-shadow: 0 0 0 0;
 }
         .header-three .mean-container a.meanmenu-reveal span {
-    background: #000;
+    background: #fff;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fff;
 }
 
-/* Make the close button (X) black when menu is open for header-three */
+/* Make the close button (X) white when menu is open for header-three */
 .header-three .mean-container a.meanmenu-reveal.meanclose span {
-    background: #000 !important;
-    border-top: 3px solid #000 !important;
+    background: #fff !important;
+    border-top: 3px solid #fff !important;
 }
     .header-three .mean-container a.meanmenu-reveal {
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
     /* mobile menu End*/
     .slider-four .slider-bg h5 {
@@ -1578,8 +1578,8 @@ display: none !important;
 }
     
     .mean-container a.meanmenu-reveal {
-color: #000;
-border: 1px solid #000;
+color: #fff;
+border: 1px solid #fff;
 }
   
     .copyright-wrap ul{

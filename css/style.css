@@ -335,8 +335,9 @@ margin-left: 0px;
 
 .header-top {
 	padding-top: 40px;
-	border-bottom: 1px solid #e6e6e6;
+	border-bottom: 1px solid #333;
 	padding-bottom: 30px;
+	background-color: #000;
 }
 .innder-ht {
 	padding: 10px 0;
@@ -482,7 +483,7 @@ top: -3px;
 }
 .main-menu ul li a {
 	display: block;
-	color: #00173c;
+	color: #fff;
 	padding: 20px 0;
     font-weight:600;
 	position: relative;
@@ -705,7 +706,7 @@ color: #b8bfc3;
 .second-header {
 border: none;
 padding-bottom: 15px;
-background: #00173c;
+background: #000;
 padding-top: 15px;
 color: #fff;
 position: relative;
@@ -861,11 +862,11 @@ z-index: 2;
 }
 .header-two .main-menu ul li a
 {
-    color: #0c2957;
+    color: #fff;
 }
 
 .header-three .second-header {
-  background: #0c2957;
+  background: #000;
 }
 .header-three .menu-area::before{
     display: none;
@@ -874,16 +875,17 @@ z-index: 2;
 border-top: 0;
     position: relative;
 z-index: 9;
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+	background-color: #000;
 }
 .header-three .sticky-menu {
   margin-top: 0;
-    background: #fff;
+    background: #000;
 }
 
 .header-three .main-menu ul li a {
         font-family: 'Jost', sans-serif;
-    color:#0c2957;
+    color:#fff;
 }
 .header-three .main-menu .sub-menu li a,.menu .children li a {
     color: #4f4f4f !important;

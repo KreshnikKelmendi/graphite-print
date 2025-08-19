@@ -44,14 +44,20 @@ a:hover {
     background-color: #000000 !important;
 }
 
-/* Header top area - make it black with white text */
+/* Header top area - make it white with dark text */
 .header-top {
-    background-color: #000000 !important;
+    background-color: #fff !important;
+    color: #000000 !important;
 }
 
 .header-top span,
 .header-top p {
-    color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.header-top i,
+.header-top .icon {
+    color: #000000 !important;
 }
 
 /* Logo area */

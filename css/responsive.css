@@ -670,6 +670,8 @@ margin-top: 30px;
 margin-top: -46px;
 color: #fff;
 border: 1px solid #fff;
+border-radius: 3px;
+transition: all 0.3s ease;
 }
     
     .contact-bg02 {
@@ -946,13 +948,18 @@ border: 1px solid #fff;
     .header-three .mean-container a.meanmenu-reveal {
   color: #fff;
   border: 1px solid #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
 }
     .header-three .mean-container a.meanmenu-reveal span {
   background: #fff;
   display: block;
-  height: 3px;
-  margin-top: 3px;
-  border-top: 3px solid #fff;
+  height: 2px;
+  margin-top: 2px;
+  border-top: 2px solid #fff;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 /* Make the close button (X) white when menu is open for header-three */
@@ -966,9 +973,12 @@ border: 1px solid #fff;
     .mean-container a.meanmenu-reveal span {
     background: #fff;
     display: block;
-     height: 3px;
-    margin-top: 3px;
-    border-top: 3px solid #fff;
+     height: 2px;
+    margin-top: 2px;
+    border-top: 2px solid #fff;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 /* Make the close button (X) white when menu is open */
@@ -1046,6 +1056,8 @@ box-shadow: 0 0 0 0;
     margin-top: -49px;
     color: #fff;
     border: 1px solid #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
 }
         .menu-area.sticky-menu {
     padding: 10px 0;
@@ -1353,9 +1365,12 @@ margin-top: 0;
     .mean-container a.meanmenu-reveal span {
     background: no-repeat;
     display: block;
-     height: 3px;
-    margin-top: 3px;
-    border-top: 3px solid #fff;
+     height: 2px;
+    margin-top: 2px;
+    border-top: 2px solid #fff;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
     .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
@@ -1410,9 +1425,12 @@ box-shadow: 0 0 0 0;
         .header-three .mean-container a.meanmenu-reveal span {
     background: #fff;
     display: block;
-     height: 3px;
-    margin-top: 3px;
-    border-top: 3px solid #fff;
+     height: 2px;
+    margin-top: 2px;
+    border-top: 2px solid #fff;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 /* Make the close button (X) white when menu is open for header-three */
@@ -1420,9 +1438,11 @@ box-shadow: 0 0 0 0;
     background: #fff !important;
     border-top: 3px solid #fff !important;
 }
-    .header-three .mean-container a.meanmenu-reveal {
+            .header-three .mean-container a.meanmenu-reveal {
   color: #fff;
   border: 1px solid #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
 }
     /* mobile menu End*/
     .slider-four .slider-bg h5 {
@@ -1580,6 +1600,8 @@ display: none !important;
     .mean-container a.meanmenu-reveal {
 color: #fff;
 border: 1px solid #fff;
+border-radius: 3px;
+transition: all 0.3s ease;
 }
   
     .copyright-wrap ul{

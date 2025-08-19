@@ -5395,6 +5395,19 @@ width: 70px;
 margin-bottom: 10px;
 }
 .footer-link ul li:last-child{margin-bottom: 0;}
+
+/* Ensure footer phone numbers are white */
+.footer-contact a[href*="tel"],
+.footer-contact a[href*="tel"]:hover,
+.footer-contact a[href*="tel"]:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.footer-contact .text-white {
+    color: #ffffff !important;
+}
+
 .f-insta ul li {
     display: inline-block;
     margin-bottom: 15px;
